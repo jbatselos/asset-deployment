@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "asset-deployment-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/assetDeploymentWebpart/AssetDeploymentWebpartWebPart.js",
+          "manifest": "./src/webparts/assetDeploymentWebpart/AssetDeploymentWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AssetDeploymentWebpartWebPartStrings": "lib/webparts/assetDeploymentWebpart/loc/{locale}.js"
+  }
+}
